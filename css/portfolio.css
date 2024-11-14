@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Floating Menu Box - Has Textbox Settings in Here */
+.menu {
+	margin-left: 5%;
+	width: 25%;
+	font-size: 130%;
+	padding: 1%;
+	float: left;
+	padding-right: 0;
+	position: fixed;
+	background-color: rgba(33,126,113,0.90);
+	border: 6px double #333;
+	border-radius: 5px;
+}
+
+/* Floating Menu Links */
+.menu a:link {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	text-shadow: #eee .05em .05em .15em;
+}
+
+.menu a:visited {
+	color: #333;
+}
+
+/* Scrolling Controls */
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 6em;
+}
+
+/* Menu Content Padding */
+dt {
+	padding: 3% 0 1%;
+}
+
+dt:first-child{
+	padding-top: 0;
+}
+
+/* Structure for the Content Column's Boxes */
+.content {
+	width: 60%;
+	margin-left: 35%;
+}
+
+.content div {
+	margin-bottom: 5%;
+	text-align: center;
+	padding: 1%;
+}
+
+/* Content Box Spacing */
+h1 {
+	padding-bottom: 1%;
+}
+
+.content p {
+	margin: 2% 0 2%;
+}
+
+/* Buttons Used on TTG Page */
+.content a:link {
+	text-decoration: none;
+	background-color: #14AA95;
+	padding: .5em;
+	border: solid 2px #333;
+	color: #333;
+	border-radius: 5px;
+	font-weight: bold;
+	text-shadow: none;
+	box-shadow: rgba(0,0,0,.5) 0 5px 3px;
+	position: relative;
+	top: 0;
+}
+
+.content a:visited{
+	border: solid 2px #333;
+	color: #333;
+}
+
+.content a:hover {
+	background-color: #F4C82F;
+}
+
+.content a:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	top: 2px;
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	width: 25%;
+}
+
+form {
+	margin: 0 20%;
+}
+
+input {
+	background-color: #eee;
+	font-family: 'Montserrat', sans-serif;
+}
+
+table {
+	font-size: 110%;
+	margin: 0 auto;
+}
+
+table input {
+	border: none;
+}
+
+td {
+	padding-bottom: 1%;
+}
+
+#left {
+	width: 23%;
+	vertical-align: top;
+}
+
+.button {
+	padding: .5% 1%;
+}
+
+#buttons {
+	margin-bottom: 1%;
+	text-align: center;
+}
