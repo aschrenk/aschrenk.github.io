@@ -3,8 +3,8 @@
 
 body{
 	margin: 0;
-	background-color: #14AA95;
-	font-family: 'Montserrat', sans-serif;
+	background-color: #017057;
+	font-family: 'Libre Franklin', sans-serif;
 	color: #eee;
 	text-shadow: #444 .1em .1em .1em;
 	background-image: url("../final/images/computer-3163436.png");
@@ -16,7 +16,7 @@ body{
 /*  Top Navbar  */
 nav {
 	overflow: hidden;
-	background-color: rgba(32,131,117,1.00);
+	background-color: rgba(9,77,62,1.00);
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -26,7 +26,7 @@ nav {
 
 nav ul {
 	list-style: none;
-	text-align: center;
+	text-align: left;
 }
 
 nav div {
@@ -73,44 +73,26 @@ nav a:hover{
 h1 {
 	text-align: center;
 	margin: 0 auto;
-	font-weight: 300;
+	font-weight: 500;
 	padding: .5%;
+}
+
+h2 {
+	margin: 0 auto;
+	font-weight: 400;
 }
 
 /*  All Text Boxes */
 .textbox {
-	background-color: rgba(33,126,113,0.90);
+	background-color: rgba(7,90,72,0.90);
 	border: 6px double #333;
 	border-radius: 5px;
 }
 
 img {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 }
 
-/*  The Text On the Action Page  */
-#action {
-		font-size: 180%;
-		display: block;
-		text-align: center;
-		width: 33%;
-		margin: 1% auto 0;
-		padding: 1% 1.5%;
-	}
 
-/*  Footer  */
-footer {
-	overflow: hidden;
-	background-color: rgba(32,131,117,1.00);
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	box-shadow: 0 -.1em .5em .05em #333;
-	text-align: center;
-}
-
-footer a:link{
-	color: #F4C82F;
-}
 

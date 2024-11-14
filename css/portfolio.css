@@ -4,13 +4,13 @@
 /* Floating Menu Box - Has Textbox Settings in Here */
 .menu {
 	margin-left: 5%;
-	width: 25%;
+	width: 20%;
 	font-size: 130%;
 	padding: 1%;
 	float: left;
 	padding-right: 0;
 	position: fixed;
-	background-color: rgba(33,126,113,0.90);
+	background-color: rgba(7,90,72,0.90);
 	border: 6px double #333;
 	border-radius: 5px;
 }
@@ -18,13 +18,13 @@
 /* Floating Menu Links */
 .menu a:link {
 	text-decoration: none;
-	color: #333;
-	font-weight: bold;
-	text-shadow: #eee .05em .05em .15em;
+	color: #eee;
+	font-weight: 500;
+	text-shadow: #222 .05em .05em .15em;
 }
 
 .menu a:visited {
-	color: #333;
+	color: #eee;
 }
 
 /* Scrolling Controls */
@@ -44,14 +44,14 @@ dt:first-child{
 
 /* Structure for the Content Column's Boxes */
 .content {
-	width: 60%;
-	margin-left: 35%;
+	width: 65%;
+	margin-left: 30%;
 }
 
 .content div {
 	margin-bottom: 5%;
 	text-align: center;
-	padding: 1%;
+	padding: 1% 3%;
 }
 
 /* Content Box Spacing */
