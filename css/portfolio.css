@@ -10,8 +10,8 @@
 	float: left;
 	padding-right: 0;
 	position: fixed;
-	background-color: rgba(7,90,72,0.90);
-	border: 6px double #333;
+	background-color: rgba(9,25,51,0.90);
+	border: 6px double #111;
 	border-radius: 5px;
 }
 
@@ -25,6 +25,10 @@
 
 .menu a:visited {
 	color: #eee;
+}
+
+.menu a:hover {
+	color: #F4C82F;
 }
 
 /* Scrolling Controls */

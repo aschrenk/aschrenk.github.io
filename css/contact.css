@@ -1,42 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1 {
-	width: 25%;
+.textbox {
+	align: center;
+	align-content: center;
+	margin: 0 16%;
+	padding: 1%;
 }
 
-form {
-	margin: 0 20%;
+a:link {
+	text-decoration: none;
+	margin: .5em 0;
+	background-color: rgba(33,126,113,0);
+	color: #ddd;
+	position: relative;
+	top: 0;
 }
 
-input {
-	background-color: #eee;
-	font-family: 'Franklin Libre', sans-serif;
+a:visited {
+	background-color: rgba(215,215,215);
+	box-shadow: rgba(0,0,0,.2) 0 5px 3px;
+	color: #ddd;
+	border-color: rgb(175,175,175);
 }
 
-table {
-	font-size: 110%;
-	margin: 0 auto;
+a:active {
+	top: 3px;
 }
 
-table input {
-	border: none;
+a:hover{
+	color: #F4C82F;
 }
 
-td {
-	padding-bottom: 1%;
+.textbox a {
+	margin-left: 1%;
 }
 
-#left {
-	width: 23%;
-	vertical-align: top;
-}
-
-.button {
-	padding: .5% 1%;
-}
-
-#buttons {
-	margin-bottom: 1%;
-	text-align: center;
+h2 {
+	margin-bottom: 2%;
 }

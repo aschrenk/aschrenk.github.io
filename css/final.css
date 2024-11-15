@@ -3,9 +3,9 @@
 
 body{
 	margin: 0;
-	background-color: #017057;
+	background-color: rgba(14,24,41,1.00);
 	font-family: 'Libre Franklin', sans-serif;
-	color: #eee;
+	color: #ddd;
 	text-shadow: #444 .1em .1em .1em;
 	background-image: url("../final/images/computer-3163436.png");
 	background-position: left top;
@@ -16,11 +16,11 @@ body{
 /*  Top Navbar  */
 nav {
 	overflow: hidden;
-	background-color: rgba(9,77,62,1.00);
+	background-color: rgba(2,18,47,1.00);
 	position: fixed;
 	top: 0;
 	width: 100%;
-	box-shadow: 0 .1em 1em .1em #333;
+	box-shadow: 0 .1em 1em .1em #111;
 	z-index: 1;
 }
 
@@ -49,7 +49,7 @@ nav a:link {
 	text-decoration: none;
 	margin: .5em 0;
 	background-color: rgba(33,126,113,0);
-	color: #fff;
+	color: #ddd;
 	position: relative;
 	top: 0;
 }
@@ -57,7 +57,7 @@ nav a:link {
 nav a:visited {
 	background-color: rgba(215,215,215);
 	box-shadow: rgba(0,0,0,.2) 0 5px 3px;
-	color: #fff;
+	color: #ddd;
 	border-color: rgb(175,175,175);
 }
 
@@ -67,6 +67,11 @@ nav a:active {
 
 nav a:hover{
 	color: #F4C82F;
+}
+
+.name {
+	font-weight: 600;
+	padding-right: 1em;
 }
 
 /*  Main Headers -- Set Width Case By Case */
@@ -84,8 +89,8 @@ h2 {
 
 /*  All Text Boxes */
 .textbox {
-	background-color: rgba(7,90,72,0.90);
-	border: 6px double #333;
+	background-color: rgba(9,25,51,0.90);
+	border: 6px double #111;
 	border-radius: 5px;
 }
 
@@ -93,6 +98,11 @@ img {
 	max-width: 80%;
 	height: auto;
 }
+
+.imlink {
+	width: 30%;
+}
+
 
 
 
