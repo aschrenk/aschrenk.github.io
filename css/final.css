@@ -6,7 +6,6 @@ body{
 	background-color: rgba(14,24,41,1.00);
 	font-family: 'Libre Franklin', sans-serif;
 	color: #ddd;
-	text-shadow: #444 .1em .1em .1em;
 	background-image: url("../final/images/computer-3163436.png");
 	background-position: left top;
 	background-attachment: fixed;
@@ -22,6 +21,7 @@ nav {
 	width: 100%;
 	box-shadow: 0 .1em 1em .1em #111;
 	z-index: 1;
+	text-shadow: #444 .1em .1em .1em;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav div {
 nav li {
 	float: left;
 	display: block;
-	font-size: 120%;
+	font-size: clamp(1rem, 2.1vw, 1.7rem);
 }
 
 nav a:link {
@@ -80,18 +80,21 @@ h1 {
 	margin: 0 auto;
 	font-weight: 500;
 	padding: .5%;
+	font-size: clamp(1.5rem, 3vw, 3rem);
 }
 
 h2 {
 	margin: 0 auto;
 	font-weight: 400;
+	font-size: clamp(1.3rem, 2.1vw, 2rem);
 }
 
 /*  All Text Boxes */
 .textbox {
-	background-color: rgba(9,25,51,0.90);
-	border: 6px double #111;
+	background-color: rgba(9,25,51,0.95);
+	border: 6px double #F4C82F;
 	border-radius: 5px;
+	font-size: clamp(1rem, 1vw, 1.5rem);
 }
 
 img {
